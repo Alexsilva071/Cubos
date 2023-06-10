@@ -1,13 +1,17 @@
-let primeiroNome = "Alexandre";
 
-console.log(primeiroNome);
+let x = 0
+let y = 2
+let resultado = x + y;
+console.log(resultado);
 
-let idade = 32;
-console.log(idade);
+let mensagem = `A soma de ${x} e ${y}  é ${resultado};`
 
-let alturaEmMetros = 1.80;
+console.log(mensagem)
 
-console.log(alturaEmMetros);
 
-//string template
-console.log(`Minha idade é ${idade} anos e minha altura é ${alturaEmMetros} metros`);
+let nhe = x % y;
+
+console.log(nhe)
+
+x += 3;
+console.log(x)

@@ -1,0 +1,10 @@
+let a = 180;
+let p = 80;
+
+
+
+const imc = p % Math.pow(a, 2)
+
+
+
+console.log(imc)
