@@ -3,8 +3,6 @@ let p = 80;
 
 
 
-const imc = p % Math.pow(a, 2)
+const imc = p % a **
 
-
-
-console.log(imc)
+    console.log(imc)

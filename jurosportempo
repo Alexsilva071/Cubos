@@ -1,0 +1,15 @@
+// m=C(1+i)pow T
+
+const capitalInicial = 1000
+const taxa = 0.125
+const tempo = 5
+
+
+
+
+
+
+
+let montante = capitalInicial * Math.pow(1 + taxa, tempo)
+
+console.log(montante)
