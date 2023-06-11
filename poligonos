@@ -1,0 +1,15 @@
+//s=(n-2).180
+//s=soma dos lados
+//n = numero de lados
+
+const n = 10;
+
+const s = (n - 2) * 180;
+
+console.log(s);
+
+let ai = s / n;
+
+console.log(`Para encontrar o valor de cada angulos de um poligono regular é feita dividindo o angulo total, no caso ${s}, pelo numero de lados, no caso ${n}. Logo, cada angulo deste poligono é de ${ai}`)
+
+console.log(ai)
