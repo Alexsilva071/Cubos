@@ -1,0 +1,16 @@
+const temingress = true
+const censura = 16
+const idade = 14
+const estarComOsPais = true
+
+if (temingress === true) {
+    if (idade >= censura) { console.log("Pode entrar") } else { console.log("barrada por idade") }
+}
+else { console.log("Barrada por falta de ingresso") };
+
+if (temingress === true && idade >= censura) { console.log("Pode entrar!") }
+
+if (temingress === true) {
+    if (idade >= censura || estarComOsPais === true) { console.log("Pode entrar") } else { console.log("Ta Barrado!") }
+}
+else { console.log("Ta barrado!") }
