@@ -1,0 +1,9 @@
+const parcela = 7
+const valorProduto = 100
+const produtoComDesconto = valorProduto - (valorProduto / 10)
+const valorParcelado = (valorProduto / parcela)
+const parcelaComJuros = valorProduto * (1 + 0.1) ** parcela
+const valorParceladoComJuros = parcelaComJuros / parcela
+
+if (parcela === 1) { console.log(`pagando a vista você tem 10 % de desconto, devendo pagar  R$ ${produtoComDesconto.toFixed(02)} reais. `) }
+else if (parcela <= 6) { console.log(`Se você parcelar em ${parcela} você deverá pagar mensalmente o valor de R$  ${valorParcelado.toFixed(2)} reais.`) } else { console.log(`Você pagará o valor de R$  ${parcelaComJuros.toFixed(02)} dividido em R$ ${parcela} parcelas de R$ ${valorParceladoComJuros.toFixed(02)}`) }

@@ -1,0 +1,6 @@
+const nome = "Mario";
+const sobrenome = "";
+const apelido = "Java";
+
+if (apelido) { console.log(apelido) }
+else { console.log(nome + sobrenome) }
